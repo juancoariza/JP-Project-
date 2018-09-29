@@ -15,7 +15,7 @@ JP Project Description:
 >then allow easy modification to handle different products.
 
 Update - 9/28/18
-Added Steps 1,2,3 of the JP Project
+Added Steps 1,2,3,4 of the JP Project
 
 **Step 1** (located in file *Item.java*)
 >JP Project Step 1: Create an interface called Item that will force all classes to
@@ -41,4 +41,30 @@ Added Steps 1,2,3 of the JP Project
 > - String manufacturer
 > - Date manufacuredOn
 > - String name
+>
+>Add an integer class variable called currentProductionNumber. This will store the next number to be
+>assigned to serialNumber.
+>
+>Complete the methods from the interface Item.
+>
+>Add a constructor that will take in the name of the product and set this to the field variable name. You
+>will also assign a serial number from the currentProductionNumber. The currentProductionNumber
+>should be incremented in readiness for the next instance.
+>Set manufacturedOn as the current date and time.
+>
+>Add a toString method that will return the following: (example data shown).
+>*Manufacturer : OraclProduction
+>Serial Number : 1
+>Date : Thu May 14 15:18:43 BST 2015
+>Name : Product Name*
+
+**Step 4** (located in file *MultimediaControl*
+>All of the items on this production line will have basic media controls. Create an interface called
+>MultimediaControl that will define the following methods.
+> - public void play();
+> - public void stop();
+> - public void previous();
+> - public void next();
+
+
 
