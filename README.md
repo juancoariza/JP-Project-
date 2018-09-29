@@ -58,7 +58,7 @@ Added Steps 1,2,3,4 of the JP Project
 > - *Date : Thu May 14 15:18:43 BST 2015*
 > - *Name : Product Name*
 
-**Step 4** (located in file *MultimediaControl*
+**Step 4** (located in file *MultimediaControl.java*)
 >All of the items on this production line will have basic media controls. Create an interface called
 >MultimediaControl that will define the following methods.
 > - public void play();
