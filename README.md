@@ -14,7 +14,7 @@ JP Project Description:
 >Your task is to create a flexible structure that could be used in any production line. This structure would
 >then allow easy modification to handle different products.
 
-Update - 9/28/18
+Update - 9/28/18: 
 Added Steps 1,2,3,4 of the JP Project
 
 **Step 1** (located in file *Item.java*)
