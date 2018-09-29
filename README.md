@@ -53,10 +53,10 @@ Added Steps 1,2,3,4 of the JP Project
 >Set manufacturedOn as the current date and time.
 >
 >Add a toString method that will return the following: (example data shown).
->*Manufacturer : OraclProduction*
->*Serial Number : 1*
->*Date : Thu May 14 15:18:43 BST 2015*
->*Name : Product Name*
+> - *Manufacturer : OraclProduction*
+> - *Serial Number : 1*
+> - *Date : Thu May 14 15:18:43 BST 2015*
+> - *Name : Product Name*
 
 **Step 4** (located in file *MultimediaControl*
 >All of the items on this production line will have basic media controls. Create an interface called
