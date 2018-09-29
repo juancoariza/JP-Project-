@@ -13,3 +13,32 @@ JP Project Description:
 >
 >Your task is to create a flexible structure that could be used in any production line. This structure would
 >then allow easy modification to handle different products.
+
+Update - 9/28/18
+Added Steps 1,2,3 of the JP Project
+
+**Step 1** (located in file *Item.java*)
+>JP Project Step 1: Create an interface called Item that will force all classes to
+>implement the following functions:
+> - A constant called manufacturer that would be set to “OracleProduction”.
+> - A method setProductionNumber that would have one integer parameter
+> - A method setName that would have one String parameter
+> - A method getName that would return a String
+> - A method getManufactureDate that would return a Date
+> - A method getSerialNumber that would return an int
+  
+**Step 2** (located in file *ItemType.java*)
+>JP Project Step 2: Create an enum called ItemType that will store the following information
+> - Audio as AU
+> - Visual as VI
+> - AudioMobile as AM
+> - VisualMobile as VM
+
+**Step 3** (located in file *Product.java*)
+>Create an abstract type called Product that will implement the Item interface. Product will implement
+>the basic functionality that all items on a production line should have. Add the following fields to Product
+> - int serialNumber
+> - String manufacturer
+> - Date manufacuredOn
+> - String name
+
