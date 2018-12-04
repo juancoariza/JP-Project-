@@ -15,7 +15,8 @@ package sample;
 
 public enum ItemType {
 
-    // JP Project Step 2: Create an enum called ItemType that will store the following information
+    // JP Project Step 2: Create an enum called ItemType
+    // that will store the following information
     // Audio as AU
     // Visual as VI
     // AudioMobile as AM
@@ -23,18 +24,23 @@ public enum ItemType {
 
     AUDIO("AU"),
     VISUAL("VI"),
-    AUDIO_MOBILE("AM"),
-    VIDEO_MOBILE("VM");
+    AUDIOMOBILE("AM"),
+    VIDEOMOBILE("VM");
 
     // added code to assign values to enums
     // based on example in Java Enum Tutorial: 10 Examples of Enum in Java
     //
     //Read more: https://javarevisited.blogspot.com/2011/08/enum-in-java-example-tutorial.html#ixzz5SRY0LvWl
 
-    private String keyCode;
+    final String keyCode;
 
     ItemType(String keyCode) {
+
         this.keyCode = keyCode;
     }
+	
+	public String getKeyCode() {
+		return this.keyCode;
+	}
 
 }

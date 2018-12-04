@@ -30,14 +30,14 @@ public interface Item {
     // all items in an interface must be implemented in any child classes
     String manufacturer = "OracleProduction";
 
-    void setProductionNumber(int proNum);  // template for method to assign prod. number to item
+    void setProductionNumber(int productionNumber);  // template for method to assign prod. number to item
 
-    void setName(String proName); // template for method to assign name to item
+    void setName(String name); // template for method to assign name to item
 
     String getName(); // template for method to get the name of said item
 
-    Date getManufactureDate(Date curDate);  // template for method to get Date of manufacture
+    Date getManufactureDate();  // template for method to get Date of manufacture
 
-    int getSerialNumber(int proSerial); // template for method to get Serial number of product
+    int getSerialNumber(); // template for method to get Serial number of product
 }
 
